@@ -13,6 +13,12 @@ ul {
     padding: 0;
 }
 
+dl {
+    margin: 0;
+    padding: 0;
+    line-height: 32px;
+}
+
 address,ins {
     text-decoration: none;
 }
@@ -126,7 +132,7 @@ img {
 .products__description--btn-groups {
  align-items: center;;
  display: flex;
- gap:10px;
+ gap:16px;
  margin-top: 20px;
  margin-bottom: 32px;
 }
@@ -149,6 +155,13 @@ img {
     margin-bottom: 24px;
 }
 
-.products__description-info dl * {
-    margin-bottom: 16px;
+.products__description-info dt, dd {
+    display: inline;
+    margin: 0;
+}
+
+.products__description-info dd::after {
+    content: '\a';
+    white-space: pre;
+  
 }
