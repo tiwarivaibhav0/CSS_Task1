@@ -1,0 +1,154 @@
+@font-face {
+    font-family: Work Sans;
+    src: url("/fonts/WorkSans-VariableFont_wght.ttf");
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+address,ins {
+    text-decoration: none;
+}
+
+ins,address {
+    font-style: normal;
+}
+
+.--font-style-work-sans {
+    font-family:Work Sans;
+
+}
+
+.--text-c-white {
+    color: #ffffff;
+}
+
+.text--c-river-bed {
+    color: #4B5563;
+}
+
+.text--c-dodger-blue {
+    color: #3B82F6;
+}
+
+.--bg-ebony {
+    background-color: #111827;
+}
+
+.--bg-white {
+    background-color: #ffffff;
+}
+
+.container {
+    margin:0 auto;
+    max-width: 1440px;
+    width: 100%;
+}
+
+.container__fluid {
+    margin: 0 auto;
+    max-width: 1140px;
+    padding: 48px 0;
+    width: calc(100% - 160px);
+}
+
+.products {
+    display: flex;
+}
+
+.products__images {
+    max-width: calc(100% - 406px);
+    
+}
+
+.products__images-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+   
+}
+
+.products__images-list > li{
+    flex: 0 0 calc(50% - 32px);
+}
+
+img {
+    width: 100%;
+}
+
+.products__description {
+    margin: 28px 0;
+    max-width: 406px;
+    flex: 0 0 100%;
+}
+
+.products__description h1{
+    margin-top: 8px;
+    margin-bottom: 12px;
+
+}
+
+.products__description__colors {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.products__description__colors > * {
+    padding: 16px 0;
+}
+
+.products__description__colors span {
+    border-top: 1px solid #E5E7EB;
+    border-bottom: 1px solid #E5E7EB;
+ 
+}
+
+.products__description__colors-list {
+    display: flex;
+}
+
+.products__description-cart-btn {
+    margin-top: 32px;
+    padding: 16px;
+    width: 100%;
+    border: none;
+}
+
+.products__description--btn-groups {
+ align-items: center;;
+ display: flex;
+ gap:10px;
+ margin-top: 20px;
+ margin-bottom: 32px;
+}
+
+.products__description--btn-groups li {
+   flex: 0 0 48%;
+}
+
+.products__description--btn-groups button {
+   display: flex;
+   align-items: center;
+   gap:4px;
+   justify-content: center;
+   max-width: 195px;
+   padding: 16px 0;
+   width: 100%;
+}
+
+.products__description-info h2 {
+    margin-bottom: 24px;
+}
+
+.products__description-info dl * {
+    margin-bottom: 16px;
+}
